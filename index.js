@@ -43,7 +43,8 @@ function parse_coverge(coverages) {
   coverages.forEach((source, i) => {
 
     // loop all coverage results (only css files)
-    let i = 1;
+    
+    
     if (source.url.endsWith('.css')) { 
 
       // intersection between arrays ranges 
